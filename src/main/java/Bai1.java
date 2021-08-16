@@ -34,8 +34,6 @@ public class Bai1 {
 
     public static void getChuoi(String inputStr1) {
         System.out.println(inputStr1);
-        String result = "Fail";
-
       for (int i = 0; i < inputStr1.length(); i++) {
           if(Character.isUpperCase(inputStr1.charAt(i))) {
                 System.out.println(inputStr1.charAt(i));
@@ -45,7 +43,6 @@ public class Bai1 {
 
     public static void nonnumericStr(String inputStr2) {
         System.out.println(inputStr2);
-        String result = "Fail";
         for (int i = 0; i < inputStr2.length(); i++) {
             if(!Character.isDigit(inputStr2.charAt(i))) {
                 System.out.print(inputStr2.charAt(i));
